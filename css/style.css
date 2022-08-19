@@ -1,0 +1,31 @@
+.main-heading {
+  color: #aaa;
+}
+.content {
+  width: 95%;
+  background-color: #eee;
+}
+.content p {
+  color: #333;
+}
+.content input {
+  border: 1px solid #ddd;
+}
+.content input:focus {
+  color: black;
+  font-size: 15px;
+}
+.footer {
+  color: #aaa;
+}
+.bookmark-list {
+  background: linear-gradient(#eee, white);
+  width: 95%;
+}
+.alert-error {
+  background-color: #ffb2b2;
+  color: #6d0000 !important;
+  border: 1px solid #6d0000;
+  font-size: 18px;
+  display: none;
+}

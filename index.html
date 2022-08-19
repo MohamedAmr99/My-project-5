@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bookmarker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-heading my-3 px-4 py-4 border-bottom border-2">
+        <h2 class="my-4 fw-bold">Bookmarker</h2>
+      </div>
+      <div class="middle-sec my-2">
+        <div class="content m-auto text-center p-4">
+          <h4 class="my-4 fw-bold">Bookmark your favorite sites</h4>
+          <p class="fw-bold my-3">Site Name</p>
+          <input
+            class="form-control-sm w-75"
+            type="text"
+            placeholder="Bookmark Name"
+            id="sn"
+          />
+          <p
+            id="alert-error-n"
+            class="alert-error w-75 m-auto my-3 rounded fw-bold py-1"
+          >
+            Name is required
+          </p>
+          <p class="fw-bold my-3">Site URL</p>
+          <input
+            class="form-control-sm w-75"
+            type="text"
+            placeholder="Website URL"
+            id="su"
+          />
+          <p
+            class="alert-error w-75 m-auto my-3 rounded fw-bold py-1"
+            id="alert-error-u"
+          >
+            Url Field is required
+          </p>
+          <button
+            class="btn btn-primary my-3 d-block m-auto"
+            onclick="getSite()"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <div id="list"></div>
+      <div class="footer fw-bold fs-6 my-3 px-4 py-4 border-top border-2">
+        <p class="my-2">&COPY;2019 Bookmarker Inc.</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
